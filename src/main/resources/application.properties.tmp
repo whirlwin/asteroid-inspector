@@ -1,0 +1,12 @@
+# TODO externalize config
+nasa.api_key=bar
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/asteroid-inspector
+spring.datasource.username=arp
+spring.datasource.password=net
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# TODO - Remove in favor of liquibase, flyway, etc.
+spring.jpa.hibernate.ddl-auto=create
